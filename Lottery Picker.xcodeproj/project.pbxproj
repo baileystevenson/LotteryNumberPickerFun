@@ -19,7 +19,6 @@
 		0415E6CA29C2778800E9F71E /* Doc4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6C929C2778800E9F71E /* Doc4.pdf */; };
 		04C41A2F29C27FC700A0D5D2 /* LotteryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C41A2E29C27FC700A0D5D2 /* LotteryPickerViewController.swift */; };
 		04C41A3129C2806B00A0D5D2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C41A3029C2806B00A0D5D2 /* TableViewCell.swift */; };
-		04C41A3329C3F2E200A0D5D2 /* Untitled (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 04C41A3229C3F2E200A0D5D2 /* Untitled (2).png */; };
 		04C41A3529C3F69A00A0D5D2 /* Untitled (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 04C41A3429C3F69A00A0D5D2 /* Untitled (2).png */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		0415E6C929C2778800E9F71E /* Doc4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Doc4.pdf; sourceTree = SOURCE_ROOT; };
 		04C41A2E29C27FC700A0D5D2 /* LotteryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPickerViewController.swift; sourceTree = "<group>"; };
 		04C41A3029C2806B00A0D5D2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		04C41A3229C3F2E200A0D5D2 /* Untitled (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled (2).png"; path = "Lottery Picker/Untitled (2).png"; sourceTree = SOURCE_ROOT; };
 		04C41A3429C3F69A00A0D5D2 /* Untitled (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled (2).png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -78,7 +76,6 @@
 				0415E6AD29C25E1100E9F71E /* SceneDelegate.swift */,
 				0415E6B129C25E1100E9F71E /* Main.storyboard */,
 				0415E6B729C25E1300E9F71E /* Assets.xcassets */,
-				04C41A3229C3F2E200A0D5D2 /* Untitled (2).png */,
 				04C41A3429C3F69A00A0D5D2 /* Untitled (2).png */,
 				0415E6B929C25E1300E9F71E /* LaunchScreen.storyboard */,
 				0415E6BC29C25E1300E9F71E /* Info.plist */,
@@ -173,7 +170,6 @@
 				0415E6C629C26EDE00E9F71E /* Untitled.png in Resources */,
 				0415E6C829C26F2E00E9F71E /* Untitled 2.png in Resources */,
 				0415E6B329C25E1100E9F71E /* Main.storyboard in Resources */,
-				04C41A3329C3F2E200A0D5D2 /* Untitled (2).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,6 +368,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
