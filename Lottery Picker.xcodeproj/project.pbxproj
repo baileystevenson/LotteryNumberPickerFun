@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0415E6AC29C25E1100E9F71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415E6AB29C25E1100E9F71E /* AppDelegate.swift */; };
+		0415E6AE29C25E1100E9F71E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415E6AD29C25E1100E9F71E /* SceneDelegate.swift */; };
+		0415E6B329C25E1100E9F71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6B129C25E1100E9F71E /* Main.storyboard */; };
+		0415E6B629C25E1100E9F71E /* Lottery_Picker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0415E6B429C25E1100E9F71E /* Lottery_Picker.xcdatamodeld */; };
+		0415E6B829C25E1300E9F71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6B729C25E1300E9F71E /* Assets.xcassets */; };
+		0415E6BB29C25E1300E9F71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6B929C25E1300E9F71E /* LaunchScreen.storyboard */; };
+		0415E6C429C2627A00E9F71E /* alejandro-garay-1RxbuMvugxk-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6C329C2627A00E9F71E /* alejandro-garay-1RxbuMvugxk-unsplash.jpg */; };
+		0415E6C629C26EDE00E9F71E /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6C529C26EDE00E9F71E /* Untitled.png */; };
+		0415E6C829C26F2E00E9F71E /* Untitled 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6C729C26F2E00E9F71E /* Untitled 2.png */; };
+		0415E6CA29C2778800E9F71E /* Doc4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0415E6C929C2778800E9F71E /* Doc4.pdf */; };
+		04C41A2F29C27FC700A0D5D2 /* LotteryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C41A2E29C27FC700A0D5D2 /* LotteryPickerViewController.swift */; };
+		04C41A3129C2806B00A0D5D2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C41A3029C2806B00A0D5D2 /* TableViewCell.swift */; };
+		04C41A3329C3F2E200A0D5D2 /* Untitled (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 04C41A3229C3F2E200A0D5D2 /* Untitled (2).png */; };
+		04C41A3529C3F69A00A0D5D2 /* Untitled (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 04C41A3429C3F69A00A0D5D2 /* Untitled (2).png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0415E6A829C25E1100E9F71E /* Lottery Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottery Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415E6AB29C25E1100E9F71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0415E6AD29C25E1100E9F71E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0415E6B229C25E1100E9F71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0415E6B529C25E1100E9F71E /* Lottery_Picker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lottery_Picker.xcdatamodel; sourceTree = "<group>"; };
+		0415E6B729C25E1300E9F71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0415E6BA29C25E1300E9F71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0415E6BC29C25E1300E9F71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0415E6C329C2627A00E9F71E /* alejandro-garay-1RxbuMvugxk-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alejandro-garay-1RxbuMvugxk-unsplash.jpg"; sourceTree = SOURCE_ROOT; };
+		0415E6C529C26EDE00E9F71E /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = SOURCE_ROOT; };
+		0415E6C729C26F2E00E9F71E /* Untitled 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2.png"; sourceTree = SOURCE_ROOT; };
+		0415E6C929C2778800E9F71E /* Doc4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Doc4.pdf; sourceTree = SOURCE_ROOT; };
+		04C41A2E29C27FC700A0D5D2 /* LotteryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPickerViewController.swift; sourceTree = "<group>"; };
+		04C41A3029C2806B00A0D5D2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04C41A3229C3F2E200A0D5D2 /* Untitled (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled (2).png"; path = "Lottery Picker/Untitled (2).png"; sourceTree = SOURCE_ROOT; };
+		04C41A3429C3F69A00A0D5D2 /* Untitled (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled (2).png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0415E6A529C25E1100E9F71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0415E69F29C25E1100E9F71E = {
+			isa = PBXGroup;
+			children = (
+				0415E6AA29C25E1100E9F71E /* Lottery Picker */,
+				0415E6A929C25E1100E9F71E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0415E6A929C25E1100E9F71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0415E6A829C25E1100E9F71E /* Lottery Picker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0415E6AA29C25E1100E9F71E /* Lottery Picker */ = {
+			isa = PBXGroup;
+			children = (
+				04C41A2D29C27F8900A0D5D2 /* New Group */,
+				0415E6C229C2626200E9F71E /* Resources */,
+				0415E6AB29C25E1100E9F71E /* AppDelegate.swift */,
+				0415E6AD29C25E1100E9F71E /* SceneDelegate.swift */,
+				0415E6B129C25E1100E9F71E /* Main.storyboard */,
+				0415E6B729C25E1300E9F71E /* Assets.xcassets */,
+				04C41A3229C3F2E200A0D5D2 /* Untitled (2).png */,
+				04C41A3429C3F69A00A0D5D2 /* Untitled (2).png */,
+				0415E6B929C25E1300E9F71E /* LaunchScreen.storyboard */,
+				0415E6BC29C25E1300E9F71E /* Info.plist */,
+				0415E6B429C25E1100E9F71E /* Lottery_Picker.xcdatamodeld */,
+				04C41A2E29C27FC700A0D5D2 /* LotteryPickerViewController.swift */,
+				04C41A3029C2806B00A0D5D2 /* TableViewCell.swift */,
+			);
+			path = "Lottery Picker";
+			sourceTree = "<group>";
+		};
+		0415E6C229C2626200E9F71E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0415E6C929C2778800E9F71E /* Doc4.pdf */,
+				0415E6C729C26F2E00E9F71E /* Untitled 2.png */,
+				0415E6C529C26EDE00E9F71E /* Untitled.png */,
+				0415E6C329C2627A00E9F71E /* alejandro-garay-1RxbuMvugxk-unsplash.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04C41A2D29C27F8900A0D5D2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0415E6A729C25E1100E9F71E /* Lottery Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415E6BF29C25E1300E9F71E /* Build configuration list for PBXNativeTarget "Lottery Picker" */;
+			buildPhases = (
+				0415E6A429C25E1100E9F71E /* Sources */,
+				0415E6A529C25E1100E9F71E /* Frameworks */,
+				0415E6A629C25E1100E9F71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottery Picker";
+			productName = "Lottery Picker";
+			productReference = 0415E6A829C25E1100E9F71E /* Lottery Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0415E6A029C25E1100E9F71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0415E6A729C25E1100E9F71E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0415E6A329C25E1100E9F71E /* Build configuration list for PBXProject "Lottery Picker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0415E69F29C25E1100E9F71E;
+			productRefGroup = 0415E6A929C25E1100E9F71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0415E6A729C25E1100E9F71E /* Lottery Picker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0415E6A629C25E1100E9F71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C41A3529C3F69A00A0D5D2 /* Untitled (2).png in Resources */,
+				0415E6C429C2627A00E9F71E /* alejandro-garay-1RxbuMvugxk-unsplash.jpg in Resources */,
+				0415E6CA29C2778800E9F71E /* Doc4.pdf in Resources */,
+				0415E6BB29C25E1300E9F71E /* LaunchScreen.storyboard in Resources */,
+				0415E6B829C25E1300E9F71E /* Assets.xcassets in Resources */,
+				0415E6C629C26EDE00E9F71E /* Untitled.png in Resources */,
+				0415E6C829C26F2E00E9F71E /* Untitled 2.png in Resources */,
+				0415E6B329C25E1100E9F71E /* Main.storyboard in Resources */,
+				04C41A3329C3F2E200A0D5D2 /* Untitled (2).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0415E6A429C25E1100E9F71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C41A3129C2806B00A0D5D2 /* TableViewCell.swift in Sources */,
+				04C41A2F29C27FC700A0D5D2 /* LotteryPickerViewController.swift in Sources */,
+				0415E6AC29C25E1100E9F71E /* AppDelegate.swift in Sources */,
+				0415E6AE29C25E1100E9F71E /* SceneDelegate.swift in Sources */,
+				0415E6B629C25E1100E9F71E /* Lottery_Picker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0415E6B129C25E1100E9F71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415E6B229C25E1100E9F71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0415E6B929C25E1300E9F71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415E6BA29C25E1300E9F71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0415E6BD29C25E1300E9F71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0415E6BE29C25E1300E9F71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0415E6C029C25E1300E9F71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XB97FPSHKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lottery Picker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Amber-Stevenson.Lottery-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0415E6C129C25E1300E9F71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XB97FPSHKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lottery Picker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Amber-Stevenson.Lottery-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0415E6A329C25E1100E9F71E /* Build configuration list for PBXProject "Lottery Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415E6BD29C25E1300E9F71E /* Debug */,
+				0415E6BE29C25E1300E9F71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415E6BF29C25E1300E9F71E /* Build configuration list for PBXNativeTarget "Lottery Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415E6C029C25E1300E9F71E /* Debug */,
+				0415E6C129C25E1300E9F71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0415E6B429C25E1100E9F71E /* Lottery_Picker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0415E6B529C25E1100E9F71E /* Lottery_Picker.xcdatamodel */,
+			);
+			currentVersion = 0415E6B529C25E1100E9F71E /* Lottery_Picker.xcdatamodel */;
+			path = Lottery_Picker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0415E6A029C25E1100E9F71E /* Project object */;
+}
